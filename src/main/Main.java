@@ -1,9 +1,9 @@
 package main;
 
+import config.PesoComparatore;
 import model.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -45,6 +45,9 @@ public class Main {
             }
         }
 
+
+
+        Arrays.sort(cestoPesca, new PesoComparatore());
 
     }
 }

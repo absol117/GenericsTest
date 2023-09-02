@@ -2,7 +2,7 @@ package model;
 
 
 
-import Exc.PesoExc;
+import exc.PesoExc;
 
 import java.util.ArrayList;
 import java.util.List;
